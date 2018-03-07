@@ -1,0 +1,69 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" lang="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+</head>
+
+    <body>
+    
+        <div class="container">
+  
+  <h1>JO - KEN - PO</h1>
+
+  <div class="links">
+     <h3>Escolha sua arma:</h3>
+    <button id="pedra">Pedra!</button>
+    <button id="papel">Papel!</button>
+    <button id="tesoura">Tesoura!</button>
+    
+  </div>
+  
+  <div class="computer">
+      <form id="pchoose">
+      <p>
+        <label for="pc">Escolha do computador:</label>
+        <input type="text" name="pc" readonly>
+      </p>
+    </form>
+  </div>
+ 
+<div class="count">
+    <form id="contar">
+     <label for="vic">Vitorias:</label>
+     <input type="text" name="vic" readonly>
+      <label for="lose">Derrotas:</label>
+     <input type="text" name="lose" readonly>
+      <label for="empate">Empates:</label>
+      <input type="text" name="empate" readonly>
+      
+      <input type="reset" value="Resetar" id="reset">
+     </form>
+</div>
+  
+<div id="choose">
+    <div class="escolha">
+      <div id="win">
+        <h2 class="h2">Você venceu!</h2>
+        <span>Parabens!</span>
+      </div>  
+  
+      <div id="lose">
+        <h2 class="h2">Você perdeu!<h2>
+        <span>Noob!</span>
+      </div>
+      <div id="draw">
+        <h2 class="h2">Empate!</h2>
+        <span> Pase para o proximo...</span>
+    </div> 
+  </div>
+ </div>
+  
+      
+  <div id="autor"> Feito por: <a href="http://startsam.esy.es" target="_blank">Start Sam_</a></div>
+</div>
+    
+    </body>
+<script type="text/javascript" src="script.js"></script>
+</html>
+
